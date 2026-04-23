@@ -114,6 +114,7 @@ def plot_signals(t, clean, noisy, filtered, fs, freq):
     print("Plot saved to biosignal_output.png")
     plt.show()
 
+
 # 6.  Main function
 def main():
     print(f"Generating {freq_hz} Hz signal | duration={duration}s | fs={fs} Hz")
