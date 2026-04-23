@@ -8,7 +8,7 @@ A lightweight Python tool for simulating and visualizing biosignals with noise f
 
 Generates a synthetic EEG-style signal (sine wave), corrupts it with Gaussian noise, applies a Butterworth low-pass filter to recover the clean signal, and plots all stages alongside a frequency spectrum (FFT).
 
-The parameters (frequency, noise level, filter cutoff, etc.) are all configurable at the top of the script — designed to make experimenting easy.
+The parameters (frequency, noise level, filter cutoff, etc.) are all configurable at the top of the script for easy experimentation.
 
 ![output plot](biosignal_output.png)
 
